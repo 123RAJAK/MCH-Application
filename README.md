@@ -1,2 +1,2 @@
 # MCH-Application
-Maternal And Child HealthCare
+Maternal and Child healthCare
