@@ -11,9 +11,10 @@ import com.mch.application.entity.Patient;
 @Service
 public interface patientService {
 	
-	public String createPatient(Patient patient) throws InterruptedException, ExecutionException ;
+	public Patient createPatient(Patient patient) throws InterruptedException, ExecutionException ;
 	public Patient getPatientByFirstName(String patientId) throws InterruptedException, ExecutionException;
 	public List<Patient> getAllPatient() throws InterruptedException, ExecutionException;
-	//	public PatientDto deletePatientByPatientId(PatientDto patientDto);
+	public void deletePatientByPatientId(String patientId);
+	public Patient updatePatient(Patient patient);
 
 }
